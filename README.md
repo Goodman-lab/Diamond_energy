@@ -33,13 +33,13 @@ Development and testing were conducted on Linux and MacOS operating systems.
 
 #################################################################
 
-__Getting Started__
+# Getting Started
 
 1. Download the Diamond_energy.py script.
 2. Navigate to the directory where the script is located using the terminal.
 3. Run the program from the terminal.
 
-__Correct Usage Syntax__
+# Correct Usage Syntax
 
 __Global Search Mode__
 
@@ -53,13 +53,13 @@ To generate and display a specific number of conformers:
 
 python Diamond_energy.py <MolecularInChI> --conformer_number=<Number_of_Conformers>
 
-__Example: Heptane__
+# Example: Heptane
 
 To perform a conformational search for heptane, use the following command:
 
 python Diamond_energy.py "InChI=1S/C7H16/c1-3-5-7-6-4-2/h3-7H2,1-2H3"
 
-__Output__
+# Output
 
 The program automatically conducts a conformational search for the specified molecule, such as heptane in the provided example. The terminal will present various details about the search process and its results. The output may include, but is not limited to, the following:
 
