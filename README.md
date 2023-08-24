@@ -45,13 +45,13 @@ __Global Search Mode__
 
 To perform a comprehensive conformational search:
 
-python Diamond_energy.py <MolecularInChI>
+python Diamond_energy.py '<MolecularInChI>'
 
 __Specifying the Number of Conformers__
 
 To generate and display a specific number of conformers:
 
-python Diamond_energy.py <MolecularInChI> <Number_of_Conformers>
+python Diamond_energy.py '<MolecularInChI>' '<Number_of_Conformers>'
 
 # Example: Heptane
 
