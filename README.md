@@ -59,6 +59,10 @@ To perform a conformational search for heptane, use the following command:
 
 python Diamond_energy.py "InChI=1S/C7H16/c1-3-5-7-6-4-2/h3-7H2,1-2H3"
 
+To obtain the first conformer of the heptane, use the following command:
+
+python Diamond_energy.py "InChI=1S/C7H16/c1-3-5-7-6-4-2/h3-7H2,1-2H3" 0
+
 # Output
 
 The program automatically conducts a conformational search for the specified molecule, such as heptane in the provided example. The terminal will present various details about the search process and its results. The output may include, but is not limited to, the following:
