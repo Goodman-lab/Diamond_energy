@@ -51,7 +51,7 @@ __Specifying the Number of Conformers__
 
 To generate and display a specific number of conformers:
 
-python Diamond_energy.py <MolecularInChI> --conformer_number=<Number_of_Conformers>
+python Diamond_energy.py <MolecularInChI> <Number_of_Conformers>
 
 # Example: Heptane
 
