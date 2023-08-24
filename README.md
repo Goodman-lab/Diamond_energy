@@ -27,7 +27,7 @@ The program initiates by extracting molecular information from the provided InCh
 
 # Requirements and Setup
 
-The script is compatible with Python 3.6 or higher and requires the RDKit library.
+The script is compatible with Python 3.6 or higher and the RDKit 2020.09.1
 
 Development and testing were conducted on Linux and MacOS operating systems.
 
@@ -36,8 +36,8 @@ Development and testing were conducted on Linux and MacOS operating systems.
 # Getting Started
 
 1. Download the Diamond_energy.py script.
-2. Navigate to the directory where the script is located using the terminal.
-3. Run the program from the terminal.
+2. Navigate to the directory where the script is located using the terminal. 
+3. Activate RDKit enviroment and run the program from the terminal.
 
 # Correct Usage Syntax
 
