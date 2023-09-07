@@ -1,4 +1,4 @@
-# Diamond_energy
+# *Diamond Energy*
 
 Jonathan M. Goodman, Mengman Wei
 
@@ -19,7 +19,7 @@ A systematic conformational searching algorithm on a diamond lattice framework
 
 # Release Notes
 
-*Italic*Diamond Energy is an algorithm developed in Python 3.6+ and RDKit environment for conducting systematic conformational searches of molecules. 
+*Diamond Energy* is an algorithm developed in Python 3.6+ and RDKit environment for conducting systematic conformational searches of molecules. 
 
 The algorithm operates in a series of steps:
 
@@ -27,11 +27,11 @@ Input Parsing: Initially, the algorithm takes the InChI of the target molecule a
 
 Framework Assumption: The algorithm uses the premise that low-energy conformations of a molecule are likely to closely resemble diamond lattice structures. This assumption enables a more efficient search.
 
-Conformer Generation: Utilizing tree-search algorithm, *Italic*Diamond Energy generates potential low-energy conformers of the molecule. These conformers are designed to fit within the constraints of a diamond lattice framework.
+Conformer Generation: Utilizing tree-search algorithm, *Diamond Energy* generates potential low-energy conformers of the molecule. These conformers are designed to fit within the constraints of a diamond lattice framework.
 
-Refinement: Finally, the output generated conformers could be further mminimized using Quantum Mechanics/Molecular Mechanics (QM/MM) methods.
+Refinement: Finally, the output generated conformers could be further minimized using Quantum Mechanics/Molecular Mechanics (QM/MM) methods.
 
-This methodical approach allows *Italic*Diamond Energy to rapidly identify all potential low-energy conformers of a given molecule, aiding in subsequent computational or experimental analysis.
+This methodical approach allows *Diamond Energy* to rapidly identify all potential low-energy conformers of a given molecule, aiding in subsequent computational or experimental analysis.
 
 #################################################################
 
