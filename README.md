@@ -19,9 +19,19 @@ A systematic conformational searching algorithm on a diamond lattice framework
 
 # Release Notes
 
-Diamond_energy is a systematic conformational searching algorithm written in Python 3.6+. It operates on the premise that local minima in the energy landscape closely resemble diamond lattice structures. By leveraging this assumption, the program rapidly identifies all low-energy conformations through adjustments to the molecule's internal coordinates within the constraints of a diamond lattice framework.
+*Italic*Diamond Energy is an algorithm developed in Python 3.6+ and RDKit environment for conducting systematic conformational searches of molecules. 
 
-The program initiates by extracting molecular information from the provided InChI input. It then generates conformers of the molecule within a diamond lattice framework, employing internal coordinate tree-search algorithms. These low-energy conformers output, optimized to fit the diamond lattice structure, serve as starting points for subsequent minimization via Quantum Mechanics/Molecular Mechanics (QM/MM) methods.
+The algorithm operates in a series of steps:
+
+Input Parsing: Initially, the algorithm takes the InChI of the target molecule as input to extract its molecular information.
+
+Framework Assumption: The algorithm uses the premise that low-energy conformations of a molecule are likely to closely resemble diamond lattice structures. This assumption enables a more efficient search.
+
+Conformer Generation: Utilizing tree-search algorithm, *Italic*Diamond Energy generates potential low-energy conformers of the molecule. These conformers are designed to fit within the constraints of a diamond lattice framework.
+
+Refinement: Finally, the output generated conformers could be further mminimized using Quantum Mechanics/Molecular Mechanics (QM/MM) methods.
+
+This methodical approach allows *Italic*Diamond Energy to rapidly identify all potential low-energy conformers of a given molecule, aiding in subsequent computational or experimental analysis.
 
 #################################################################
 
@@ -34,6 +44,9 @@ Development and testing were conducted on Linux and MacOS operating systems.
 #################################################################
 
 # Getting Started
+
+Make sure Python 3.6+ is installed on your machine.
+RDKit should be installed and properly configured. If not, installation instructions can be found on the RDKit website(https://www.rdkit.org/docs/Install.html).
 
 1. Download the Diamond_energy.py script.
 2. Navigate to the directory where the script is located using the terminal. 
@@ -72,7 +85,5 @@ Lowest Energy Conformation: The conformation with the minimum energy.
 Energies of Each Conformation: Energy values associated with each identified conformation.
 
 Total Number of Accessible Conformations: Count of conformations that have accessible energy levels.
-
-Low-Energy Conformers 3D File: Conformers with low energies are saved in a .sdf file.
 
 ...and more.
